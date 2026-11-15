@@ -1,0 +1,108 @@
+{
+  "dataset": "C:\\Users\\owner\\OneDrive\\Desktop\\urfall-cam0-falls.csv",
+  "rows": 2995,
+  "features": [
+    "feature_1",
+    "feature_2",
+    "feature_3",
+    "feature_4",
+    "feature_5",
+    "feature_6",
+    "feature_7",
+    "feature_8"
+  ],
+  "labels": [
+    -1,
+    0,
+    1
+  ],
+  "train_videos": [
+    "fall-01",
+    "fall-02",
+    "fall-03",
+    "fall-04",
+    "fall-05",
+    "fall-06",
+    "fall-07",
+    "fall-08",
+    "fall-11",
+    "fall-12",
+    "fall-13",
+    "fall-14",
+    "fall-15",
+    "fall-17",
+    "fall-19",
+    "fall-20",
+    "fall-21",
+    "fall-22",
+    "fall-23",
+    "fall-26",
+    "fall-27",
+    "fall-30"
+  ],
+  "test_videos": [
+    "fall-09",
+    "fall-10",
+    "fall-16",
+    "fall-18",
+    "fall-24",
+    "fall-25",
+    "fall-28",
+    "fall-29"
+  ],
+  "classification_report": {
+    "-1": {
+      "precision": 0.9501779359430605,
+      "recall": 0.8369905956112853,
+      "f1-score": 0.89,
+      "support": 319.0
+    },
+    "0": {
+      "precision": 0.7806691449814126,
+      "recall": 0.875,
+      "f1-score": 0.825147347740668,
+      "support": 240.0
+    },
+    "1": {
+      "precision": 0.9179487179487179,
+      "recall": 0.9623655913978495,
+      "f1-score": 0.9396325459317585,
+      "support": 186.0
+    },
+    "accuracy": 0.8805369127516779,
+    "macro avg": {
+      "precision": 0.8829319329577303,
+      "recall": 0.8914520623363783,
+      "f1-score": 0.8849266312241421,
+      "support": 745.0
+    },
+    "weighted avg": {
+      "precision": 0.8875245877850159,
+      "recall": 0.8805369127516779,
+      "f1-score": 0.8814993516792852,
+      "support": 745.0
+    }
+  },
+  "confusion_matrix_labels": [
+    -1,
+    0,
+    1
+  ],
+  "confusion_matrix": [
+    [
+      267,
+      52,
+      0
+    ],
+    [
+      14,
+      210,
+      16
+    ],
+    [
+      0,
+      7,
+      179
+    ]
+  ]
+}

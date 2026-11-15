@@ -1,0 +1,12 @@
+opencv-python
+mediapipe==0.10.20
+protobuf==4.25.9
+numpy==1.26.4
+tensorflow==2.18.0
+pandas
+scikit-learn
+joblib
+streamlit
+SpeechRecognition
+PyAudio
+deepface
